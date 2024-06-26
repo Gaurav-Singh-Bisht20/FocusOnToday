@@ -64,6 +64,7 @@ body{
     background-color:rgba(72, 163, 0, 1);
     border-radius: 15px;
     margin-top: 15px;
+    transition: width 0.2s ease-in-out;
 }
 
 
@@ -144,6 +145,13 @@ body{
 
 .showError .error_label {
     display: block;
+}
+
+#completed_Text{
+    font-size: 12px;
+    text-align: center;
+    padding: 0 10px;
+    color: white;
 }
 
 
